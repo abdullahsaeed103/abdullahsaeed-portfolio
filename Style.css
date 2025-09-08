@@ -329,13 +329,17 @@ form button[type="submit"]:hover {
     width: 100%;
     height: auto;
   }
+
+  .pill-navbar ul {
+     gap:8px;
+  }
 }
 
 /* Mobiles (≤ 768px) */
 @media (max-width: 768px) {
   .pill-navbar ul {
     flex-direction: row;
-    gap: 10px;
+    gap:8px;
     padding: 5px 20px;
     border-radius: 20px;
     display: flex;
@@ -428,4 +432,9 @@ form button[type="submit"]:hover {
   footer small {
     font-size: 0.75rem;
   }
+   .pill-navbar ul {
+     gap:8px;
+  }
 }
+
+
