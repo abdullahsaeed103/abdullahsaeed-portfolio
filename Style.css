@@ -338,8 +338,12 @@ form button[type="submit"]:hover {
     gap: 10px;
     padding: 5px 20px;
     border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
+  
   .pill-navbar a {
     display: block;
     text-align: center;
@@ -381,6 +385,11 @@ form button[type="submit"]:hover {
   box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05);
   margin: auto;
 }
+
+#projects img {
+    width: 100vw;
+    height: 36vw;
+  }
 
 }
 
