@@ -7,7 +7,6 @@ body {
   font-family: "Segoe UI", sans-serif;
   margin: 0;
   padding: 0;
-  /* background: linear-gradient(135deg, #f9f9f9, #f9fafb); */
   color: #212529;
   line-height: 1.6;
   box-sizing: border-box;
@@ -22,13 +21,10 @@ body {
 /* Container */
 .container {
   max-width: 900px;
-  /* margin: 40px auto; */
-  margin:  auto;
+  margin: auto;
   padding: 40px 20px;
   background-color: #ffffff;
   border-radius: 12px;
-  /* border: 2px solid #e0f0f0;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); */
 }
 
 /* Headings */
@@ -238,7 +234,7 @@ form button[type="submit"]:hover {
   transform: translateY(-2px);
 }
 
-/* Hero Buttons (View My Work & Let's Talk) */
+/* Hero Buttons */
 .hero-buttons button {
   background-color: #008060;
   color: #ffffff;
@@ -263,8 +259,7 @@ form button[type="submit"]:hover {
   box-shadow: 0 2px 6px rgba(0, 128, 96, 0.2);
 }
 
-
-/* Pill Navbar (Inside Container) */
+/* Pill Navbar */
 .pill-navbar {
   text-align: center;
   margin-bottom: 40px;
@@ -331,27 +326,27 @@ form button[type="submit"]:hover {
   }
 
   .pill-navbar ul {
-     gap:8px;
+    gap: 12px;
   }
 }
 
 /* Mobiles (≤ 768px) */
 @media (max-width: 768px) {
-  .pill-navbar ul {
-    flex-direction: row;
-    gap:8px;
-    padding: 5px 20px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .pill-navbar {
+    margin-bottom: 25px;
   }
 
-  
+  .pill-navbar ul {
+    flex-wrap: wrap; /* allow items to wrap */
+    justify-content: center;
+    gap: 6px;
+    padding: 8px 12px;
+    border-radius: 30px;
+  }
+
   .pill-navbar a {
-    display: block;
-    text-align: center;
-    padding: 10px;
+    padding: 6px 14px;
+    font-size: 0.9rem;
   }
 
   header img {
@@ -382,19 +377,10 @@ form button[type="submit"]:hover {
     padding: 12px;
   }
 
-  .container {
-  background-color: #ffffff;
-  border-radius: 12px;
-  border: 2px solid #ffffff;
-  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05);
-  margin: auto;
-}
-
-#projects img {
+  #projects img {
     width: 100vw;
     height: 36vw;
   }
-
 }
 
 /* Small Mobiles (≤ 480px) */
@@ -408,8 +394,15 @@ form button[type="submit"]:hover {
   }
 
   .pill-navbar ul {
-    gap: 8px;
-    padding: 4px 6px;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 6px 10px;
+    border-radius: 20px;
+  }
+
+  .pill-navbar a {
+    padding: 6px 10px;
+    font-size: 0.85rem;
   }
 
   h1 {
@@ -432,9 +425,4 @@ form button[type="submit"]:hover {
   footer small {
     font-size: 0.75rem;
   }
-   .pill-navbar ul {
-     gap:8px;
-  }
 }
-
-
