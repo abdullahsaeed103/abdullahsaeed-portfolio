@@ -19,7 +19,7 @@ My personal portfolio website showcasing my skills, projects, and achievements a
 - **Sbshoesonline** — Modern Shopify shoe e-commerce  
 
 ## 📞 Contact
-- 📧 [Email](mailto:amabdullahramay103@gmail.com)  
+- 📧 [Email](mailto:mabdullahchaudhary103@gmail.com)  
 - 📸 [Instagram](https://instagram.com/abdullahsaeed.dev)
 
 ---
